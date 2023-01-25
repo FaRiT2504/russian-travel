@@ -1,0 +1,35 @@
+.place__website {
+  margin: 0 0 48px 0;
+  padding: 0 0 0 0;
+  width: 456px;
+  /* width: max-content; */
+  height: min-content;
+  background-color: aquamarine;
+  grid-area: place__website;
+  /* grid-column: 2/3;
+  grid-row: -7/-10;
+  align-self: end; */
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    height: 46px;
+    width: 288px;
+
+    margin: 32px 0 32px 0;
+    padding: 0 0 0 0;
+  }
+}
+
+
+.place:nth-of-type(1) .place__website {
+  /* margin-top: 106px; */
+  /* grid-row: -7/-10;
+  align-self: end; */
+}
+
+.place:nth-of-type(4) .place__website {
+  /* margin-top: 106px; */
+  /* grid-row: -7/-10;
+  align-self: end; */
+}

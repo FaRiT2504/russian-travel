@@ -1,0 +1,8 @@
+.cover__background {}
+
+@media screen and (max-width: 320px) {
+  .cover__background {
+    height: 200px;
+    width: 320px;
+  }
+}

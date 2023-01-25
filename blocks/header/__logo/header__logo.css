@@ -1,0 +1,17 @@
+.header__logo {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  height: 52px;
+  width: 176px;
+  justify-self: start;
+  background-color: aqua;
+}
+
+@media screen and (max-width: 320px) {
+
+  /* стили для малого смартфона */
+  .header__logo {
+    height: 42px;
+    width: 142px;
+  }
+}

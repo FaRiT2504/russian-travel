@@ -1,0 +1,16 @@
+.cover__overlay {
+  height: 740px;
+  width: 1184px;
+
+  position: absolute;
+  background: #2A2C2F;
+  opacity: 0.3;
+
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    height: 200px;
+    width: 320px;
+  }
+}
