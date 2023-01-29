@@ -1,9 +1,36 @@
-.photo-grid__item {}
+.photo-grid__item {
+  height: 213px;
+  width: 284px;
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  /* стили для планшета в альбомной ориентации */
+  .photo-grid__item {
+    height: 225px;
+    width: 300px;
+
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  /* стили для планшета */
+  .photo-grid__item {
+    height: 264px;
+    width: 352px;
+
+
+  }
+}
 
 @media screen and (max-width: 320px) {
   .photo-grid__item {
     /* max-width: 100%; */
-    /* height: 216px;
-    width: 288px; */
+    height: 216px;
+    width: 288px;
+
   }
 }

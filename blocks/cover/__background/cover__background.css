@@ -1,5 +1,24 @@
 .cover__background {}
 
+@media screen and (max-width: 1024px) {
+
+  /* стили для планшета в альбомной ориентации */
+  .cover__background {
+    height: 640px;
+    width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  /* стили для планшета */
+  .cover__background {
+    height: 480px;
+    width: 768px;
+
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__background {
     height: 200px;

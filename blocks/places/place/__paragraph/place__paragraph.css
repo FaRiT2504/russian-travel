@@ -11,7 +11,7 @@
   text-align: left;
 
   grid-area: place__paragraph;
-  background-color: bisque;
+
   /* grid-column: 2/3;
   grid-row: 5/7;
   align-self: start; */
@@ -29,6 +29,34 @@
 
 .place:nth-of-type(5) .place__paragraph {
   /* grid-row: 5/10; */
+}
+
+@media screen and (max-width: 1024px) {
+
+  /* стили для планшета в альбомной ориентации */
+  .place__paragraph {
+
+    width: 456px;
+
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  /* стили для планшета */
+  .place__paragraph {
+
+    width: 352px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+  }
 }
 
 @media screen and (max-width: 320px) {

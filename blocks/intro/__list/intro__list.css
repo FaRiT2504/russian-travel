@@ -11,6 +11,21 @@
 
 }
 
+@media screen and (max-width: 1024px) {
+
+  /* стили для планшета в альбомной ориентации */
+  .intro__list {}
+}
+
+@media screen and (max-width: 768px) {
+
+  /* стили для планшета */
+  .intro__list {
+    height: 90px;
+    width: 720px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .intro__list {
     max-height: 90px;

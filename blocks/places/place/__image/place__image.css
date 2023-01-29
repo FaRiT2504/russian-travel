@@ -10,6 +10,25 @@
 
 }
 
+@media screen and (max-width: 1024px) {
+
+  /* стили для планшета в альбомной ориентации */
+  .place__image {
+    height: 440px;
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  /* стили для планшета */
+  .place__image {
+    height: 340px;
+    width: 340px;
+
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__image {
     width: 320px;

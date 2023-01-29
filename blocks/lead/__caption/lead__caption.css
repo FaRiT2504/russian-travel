@@ -9,7 +9,19 @@
   line-height: 14px;
   letter-spacing: 1.5px;
   text-align: left;
-  background-color: aqua;
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  /* стили для планшета в альбомной ориентации */
+  .lead__caption {}
+}
+
+@media screen and (max-width: 768px) {
+
+  /* стили для планшета */
+  .lead__caption {}
 }
 
 @media screen and (max-width: 320px) {

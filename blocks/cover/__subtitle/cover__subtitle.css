@@ -10,6 +10,40 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 1024px) {
+
+  /* стили для планшета в альбомной ориентации */
+  .cover__subtitle {
+    height: 66px;
+    width: 360px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  /* стили для планшета */
+  .cover__subtitle {
+    height: 66px;
+    width: 360px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__subtitle {
     height: 48px;

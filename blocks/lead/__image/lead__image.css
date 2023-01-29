@@ -8,6 +8,26 @@
 
 }
 
+@media screen and (max-width: 1024px) {
+
+  /* стили для планшета в альбомной ориентации */
+  .lead__image {
+    height: 580px;
+    width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  /* стили для планшета */
+  .lead__image {
+    height: 480px;
+    width: 768px;
+
+
+  }
+}
+
 @media screen and (max-width: 320px) {
 
   /* стили для малого смартфона */

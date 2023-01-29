@@ -11,12 +11,14 @@
 @media screen and (max-width: 1024px) {
 
   /* стили для планшета в альбомной ориентации */
+  .page {}
 
 }
 
 @media screen and (max-width: 768px) {
 
   /* стили для планшета */
+  .page {}
 }
 
 @media screen and (max-width: 320px) {

@@ -8,8 +8,33 @@
   text-align: left;
   text-decoration-line: underline;
   color: #FFFFFF;
-  background-color: darkgreen;
-  /* width: max-content; */
+  width: min-content;
+}
+
+.place__link:hover {
+  opacity: 80%;
+}
+
+@media screen and (max-width: 1024px) {
+
+  /* стили для планшета в альбомной ориентации */
+  .place__link {}
+}
+
+@media screen and (max-width: 768px) {
+
+  /* стили для планшета */
+  .place__link {
+    height: 22px;
+    width: min-content;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
 }
 
 @media screen and (max-width: 320px) {

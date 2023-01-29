@@ -5,9 +5,31 @@
   flex-direction: column;
   justify-content: center;
   width: 984px;
-  height: 1005px;
+  /* height: 1005px; */
   /* width: 100vw;
   height: 100vw; */
+  min-height: 406px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  /* стили для планшета в альбомной ориентации */
+  .lead {
+    height: 962px;
+    width: 928px;
+    padding: 48px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  /* стили для планшета */
+  .lead {
+    max-height: 862px;
+    width: 100vw;
+    padding: 48px 0 0 0;
+    margin: 0 0 0 0;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -15,7 +37,9 @@
   /* стили для малого смартфона */
   .lead {
     max-height: 406px;
-    width: 320px;
+    width: 100vw;
     padding: 48px 0 0 0;
+    margin: 0 0 0 0;
+
   }
 }

@@ -4,7 +4,27 @@
   width: 984px;
   height: min-content;
   box-sizing: border-box;
-  background-color: rgb(95, 224, 108);
+}
+
+@media screen and (max-width: 1024px) {
+
+  /* стили для планшета в альбомной ориентации */
+  .places {
+    min-height: 3292px;
+    width: 928px;
+
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  /* стили для планшета */
+  .places {
+    min-height: 2808px;
+    width: 720px;
+    padding: 88px 0 90px 0;
+  }
 }
 
 @media screen and (max-width: 320px) {

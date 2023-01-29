@@ -3,6 +3,18 @@
   margin: 0 0 0 0;
 }
 
+@media screen and (max-width: 1024px) {
+
+  /* стили для планшета в альбомной ориентации */
+  .intro__list_description {}
+}
+
+@media screen and (max-width: 768px) {
+
+  /* стили для планшета */
+  .intro__list_description {}
+}
+
 @media screen and (max-width: 320px) {
   .intro__list_description {}
 }

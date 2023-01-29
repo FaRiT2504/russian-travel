@@ -4,16 +4,35 @@
   width: 456px;
   /* width: max-content; */
   height: min-content;
-  background-color: aquamarine;
+
   grid-area: place__website;
   /* grid-column: 2/3;
   grid-row: -7/-10;
   align-self: end; */
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  /* стили для планшета в альбомной ориентации */
+  .place__website {}
+}
+
+@media screen and (max-width: 768px) {
+
+  /* стили для планшета */
+  .place__website {
+    /* height: 46px; */
+    /* width: min-content; */
+    /* height: 46px; */
+    width: 352px;
+
+  }
 }
 
 @media screen and (max-width: 320px) {
   .place__website {
-    height: 46px;
+    /* height: 46px; */
     width: 288px;
 
     margin: 32px 0 32px 0;

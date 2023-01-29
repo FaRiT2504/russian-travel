@@ -4,7 +4,19 @@
   height: 52px;
   width: 176px;
   justify-self: start;
-  background-color: aqua;
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  /* стили для планшета в альбомной ориентации */
+  .header__logo {}
+}
+
+@media screen and (max-width: 768px) {
+
+  /* стили для планшета */
+  .header__logo {}
 }
 
 @media screen and (max-width: 320px) {

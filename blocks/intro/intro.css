@@ -7,13 +7,33 @@
   justify-content: flex-start;
   align-items: flex-start;
   width: 984px;
-  max-height: 429px;
+  min-height: 429px;
 
+}
+
+@media screen and (max-width: 1024px) {
+
+  /* стили для планшета в альбомной ориентации */
+  .intro {
+    min-height: 429px;
+    width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  /* стили для планшета */
+  .intro {
+    min-height: 429px;
+    width: 720px;
+    padding: 88px 0 88px 0;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-    max-height: 754px;
+    height: 754px;
+
     width: 288px;
     padding: 64px 0 64px 0;
   }

@@ -11,15 +11,40 @@
   text-align: left;
 
   grid-area: place__title;
-  background-color: antiquewhite;
+
   /* grid-column: 1/2;
   grid-row: -7/-10; */
 
 }
 
+@media screen and (max-width: 1024px) {
+
+  /* стили для планшета в альбомной ориентации */
+  .place__title {
+
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  /* стили для планшета */
+  .place__title {
+
+    width: 340px;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__title {
-    height: 35px;
+    /* height: 35px; */
     width: 288px;
 
     font-family: Inter;

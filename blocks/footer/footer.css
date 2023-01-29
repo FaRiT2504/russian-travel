@@ -2,12 +2,31 @@
   padding: 92px 0 24px 0;
   /* margin: 0 0 0 0; */
   margin: auto;
-  background-color: yellow;
   width: 1184px;
   height: 18px;
   display: grid;
 
   grid-template-columns: repeat(5, min-content) 1fr;
+}
+
+@media screen and (max-width: 1024px) {
+
+  /* стили для планшета в альбомной ориентации */
+  .footer {
+    height: 18px;
+    width: 928px;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  /* стили для планшета */
+  .footer {
+    height: 18px;
+    width: 720px;
+    padding: 88px 0 24px 0;
+  }
 }
 
 @media screen and (max-width: 320px) {

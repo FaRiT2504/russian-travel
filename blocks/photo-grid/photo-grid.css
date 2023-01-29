@@ -10,6 +10,27 @@
   grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
 }
 
+@media screen and (max-width: 1024px) {
+
+  /* стили для планшета в альбомной ориентации */
+  .photo-grid {
+    height: 942px;
+    width: 928px;
+
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  /* стили для планшета */
+  .photo-grid {
+    height: 1664px;
+    width: 720px;
+
+  }
+}
+
 @media screen and (max-width: 320px) {
   .photo-grid {
     /* height: 2724px; */
