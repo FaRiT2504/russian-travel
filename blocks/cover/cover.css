@@ -4,7 +4,7 @@
   max-width: 1184px;
   min-height: 740px;
   box-sizing: border-box;
-  /* background-image: url('/image/1280/cover__background.jpg'); */
+  background-image: url('/image/1280/cover__background.jpg');
   background-size: cover;
   display: flex;
   flex-direction: column;

@@ -1,6 +1,6 @@
 .cover__background {
   width: 100%;
-  background-image: url('/image/1280/cover__background.jpg');
+  /* background-image: url('/image/1280/cover__background.jpg'); */
   min-height: 740px;
   max-width: 1184px;
   position: absolute;
