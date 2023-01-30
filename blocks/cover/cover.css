@@ -1,51 +1,68 @@
 .cover {
   padding: 0 0 0 0;
   margin: 0 auto 0 auto;
-  width: 1184px;
-  height: 740px;
+  max-width: 1184px;
+  min-height: 740px;
   box-sizing: border-box;
-  background-image: url('/image/1280/cover__background.jpg');
+  /* background-image: url('/image/1280/cover__background.jpg'); */
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: center;
-
+  width: 100%;
   position: relative;
+  text-decoration: none;
 }
 
-.cover:hover {
-  /* background-color: #2A2C2F; */
-  opacity: 0.7;
-
+.cover__title:hover {
+  /* opacity: 0.7; */
 }
 
+.cover__title:before {
+  /* z-index: -1;
+  position: absolute;
 
-@media screen and (max-width: 1024px) {
+  opacity: 30%; */
+}
 
-  /* стили для планшета в альбомной ориентации */
-  .cover {
-    height: 640px;
-    width: 1024px;
+.cover__title:hover:before {
+  /* opacity: 70%;
+} */
 
+
+  @media screen and (max-width: 1024px) {
+
+    /* стили для планшета в альбомной ориентации */
+    .cover {
+      min-height: 640px;
+      max-width: 1024px;
+
+    }
   }
-}
 
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
 
-  /* стили для планшета */
-  .cover {
-    height: 480px;
-    width: 768px;
+    /* стили для планшета */
+    .cover {
+      min-height: 480px;
+      max-width: 768px;
 
+    }
   }
-}
 
+  @media screen and (max-width: 360px) {
+    .cover {
+      min-height: 200px;
+      max-width: 320px;
 
-@media screen and (max-width: 320px) {
-  .cover {
-    height: 200px;
-    width: 320px;
-
+    }
   }
-}
+
+  @media screen and (max-width: 320px) {
+    .cover {
+      min-height: 200px;
+      max-width: 320px;
+
+    }
+  }

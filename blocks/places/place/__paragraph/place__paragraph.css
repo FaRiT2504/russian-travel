@@ -1,9 +1,10 @@
 .place__paragraph {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
-  width: 484px;
+  max-width: 484px;
   /* width: min-content; */
   height: max-content;
+  min-height: 116px;
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
@@ -36,7 +37,7 @@
   /* стили для планшета в альбомной ориентации */
   .place__paragraph {
 
-    width: 456px;
+    max-width: 456px;
 
 
   }
@@ -47,7 +48,7 @@
   /* стили для планшета */
   .place__paragraph {
 
-    width: 352px;
+    max-width: 352px;
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
@@ -59,10 +60,25 @@
   }
 }
 
+@media screen and (max-width: 560px) {
+  .place__paragraph {
+    height: min-content;
+    max-width: 288px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__paragraph {
     height: min-content;
-    width: 288px;
+    max-width: 288px;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     font-family: Inter;

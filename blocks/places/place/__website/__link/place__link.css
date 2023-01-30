@@ -25,7 +25,7 @@
 
   /* стили для планшета */
   .place__link {
-    height: 22px;
+    min-height: 22px;
     width: min-content;
     font-family: Inter;
     font-size: 18px;
@@ -37,9 +37,22 @@
   }
 }
 
+@media screen and (max-width: 560px) {
+  .place__link {
+    min-height: 22px;
+    width: 288px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__link {
-    height: 22px;
+    min-height: 22px;
     width: 288px;
     font-family: Inter;
     font-size: 18px;

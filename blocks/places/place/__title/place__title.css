@@ -1,9 +1,10 @@
 .place__title {
   margin: 0 0 48px 0;
   padding: 0 0 0 0;
-  width: 460px;
+  max-width: 460px;
 
-  height: min-content;
+  /* height: min-content; */
+  min-height: 76px;
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
@@ -21,8 +22,8 @@
 
   /* стили для планшета в альбомной ориентации */
   .place__title {
-
-    width: 440px;
+    min-height: 76px;
+    max-width: 440px;
   }
 }
 
@@ -30,8 +31,9 @@
 
   /* стили для планшета */
   .place__title {
+    min-height: 46px;
 
-    width: 340px;
+    max-width: 340px;
     font-family: Inter;
     font-size: 42px;
     font-weight: 900;
@@ -42,10 +44,25 @@
   }
 }
 
+@media screen and (max-width: 560px) {
+  .place__title {
+    min-height: 35px;
+    max-width: 288px;
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0 0 0 0;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__title {
-    /* height: 35px; */
-    width: 288px;
+    min-height: 35px;
+    max-width: 288px;
 
     font-family: Inter;
     font-size: 32px;

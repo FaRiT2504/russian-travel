@@ -1,10 +1,12 @@
 .photo-grid {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
-  width: 1184px;
-  height: 671px;
+  width: 100%;
+  max-width: 1184px;
+  min-height: 671px;
   box-sizing: border-box;
   display: grid;
+  justify-items: center;
   gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
@@ -14,8 +16,8 @@
 
   /* стили для планшета в альбомной ориентации */
   .photo-grid {
-    height: 942px;
-    width: 928px;
+    min-height: 942px;
+    max-width: 928px;
 
 
   }
@@ -25,17 +27,17 @@
 
   /* стили для планшета */
   .photo-grid {
-    height: 1664px;
-    width: 720px;
+    min-height: 1664px;
+    max-width: 720px;
 
   }
 }
 
 @media screen and (max-width: 320px) {
   .photo-grid {
-    /* height: 2724px; */
-    height: max-content;
-    width: 288px;
+    min-height: 2724px;
+    /* height: max-content; */
+    max-width: 288px;
     justify-items: stretch;
     grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));

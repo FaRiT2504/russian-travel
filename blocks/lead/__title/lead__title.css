@@ -7,11 +7,9 @@
   line-height: 100px;
   letter-spacing: 0em;
   text-align: center;
-  height: 200px;
-  /* width: 720px; */
-
-  min-width: 288px;
-  height: max-content;
+  min-height: 200px;
+  max-width: 720px;
+  /* height: max-content; */
   align-self: center;
 }
 
@@ -19,8 +17,8 @@
 
   /* стили для планшета в альбомной ориентации */
   .lead__title {
-    height: 200px;
-    /* width: 720px; */
+    min-height: 200px;
+    max-width: 720px;
     font-family: Inter;
     font-size: 96px;
     font-weight: 900;
@@ -36,8 +34,8 @@
 
   /* стили для планшета */
   .lead__title {
-    height: 200px;
-    /* width: 720px; */
+    min-height: 200px;
+    max-width: 720px;
     font-family: Inter;
     font-size: 96px;
     font-weight: 900;
@@ -49,12 +47,20 @@
   }
 }
 
+@media screen and (max-width: 660px) {
+  .lead__title {
+
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+
 @media screen and (max-width: 320px) {
 
   /* стили для малого смартфона */
   .lead__title {
-    height: 88px;
-    width: 288px;
+    min-height: 88px;
+    max-width: 288px;
     font-family: Inter;
     font-size: 40px;
     font-weight: 900;

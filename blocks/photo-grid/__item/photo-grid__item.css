@@ -1,15 +1,15 @@
 .photo-grid__item {
-  height: 213px;
-  width: 284px;
-
+  min-height: 213px;
+  max-width: 284px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
 
   /* стили для планшета в альбомной ориентации */
   .photo-grid__item {
-    height: 225px;
-    width: 300px;
+    min-height: 225px;
+    max-width: 300px;
 
 
   }
@@ -19,8 +19,8 @@
 
   /* стили для планшета */
   .photo-grid__item {
-    height: 264px;
-    width: 352px;
+    min-height: 264px;
+    max-width: 352px;
 
 
   }
@@ -29,8 +29,8 @@
 @media screen and (max-width: 320px) {
   .photo-grid__item {
     /* max-width: 100%; */
-    height: 216px;
-    width: 288px;
+    min-height: 216px;
+    max-width: 288px;
 
   }
 }

@@ -1,8 +1,9 @@
 .intro__title {
   margin: 0 0 40px 0;
   padding: 0 0 0 0;
-  width: 690px;
-  height: 58px;
+  /* width: 690px; */
+  max-width: 690px;
+  min-height: 58px;
   font-size: 54px;
   font-weight: 900;
   line-height: 58px;
@@ -21,8 +22,8 @@
 
   /* стили для планшета */
   .intro__title {
-    height: 58px;
-    width: 720px;
+    min-height: 58px;
+    /* width: 720px; */
 
 
   }
@@ -32,7 +33,7 @@
 
   .intro__title {
     min-height: 70px;
-    width: 288px;
+    /* width: 288px; */
     font-family: Inter;
     font-size: 32px;
     font-weight: 900;

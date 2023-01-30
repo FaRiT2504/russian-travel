@@ -1,13 +1,19 @@
 .intro {
   margin: 0 0 0 0;
   padding: 92px 0 92px 0;
-
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  justify-items: flex-start;
   align-items: flex-start;
-  width: 984px;
-  min-height: 429px;
+  /* width: 984px; */
+  /* min-width: 288px;
+  min-height: 429px; */
+  max-width: 984px;
+  min-width: none;
+  width: 100%;
+  background-color: darkgrey;
 
 }
 
@@ -15,8 +21,10 @@
 
   /* стили для планшета в альбомной ориентации */
   .intro {
+    width: 100%;
     min-height: 429px;
-    width: 928px;
+    max-width: 928px;
+    min-width: none;
   }
 }
 
@@ -25,7 +33,7 @@
   /* стили для планшета */
   .intro {
     min-height: 429px;
-    width: 720px;
+    max-width: 720px;
     padding: 88px 0 88px 0;
   }
 }
@@ -34,7 +42,7 @@
   .intro {
     height: 754px;
 
-    width: 288px;
+    max-width: 288px;
     padding: 64px 0 64px 0;
   }
 }

@@ -1,8 +1,9 @@
 .places {
   padding: 92px 0 92px 0;
   margin: 0 auto 0 auto;
-  width: 984px;
-  height: min-content;
+  max-width: 984px;
+  /* height: min-content; */
+  min-height: 3392px;
   box-sizing: border-box;
 }
 
@@ -11,7 +12,7 @@
   /* стили для планшета в альбомной ориентации */
   .places {
     min-height: 3292px;
-    width: 928px;
+    max-width: 928px;
 
 
   }
@@ -22,8 +23,19 @@
   /* стили для планшета */
   .places {
     min-height: 2808px;
-    width: 720px;
+    max-width: 720px;
     padding: 88px 0 90px 0;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .places {
+    padding: 64px 0 66px 0;
+    /* height: min-content; */
+    max-width: 320px;
+    min-height: 5177px;
+    /* height: max-content; */
+    box-sizing: content-box;
   }
 }
 
@@ -31,9 +43,9 @@
   .places {
     padding: 64px 0 66px 0;
     /* height: min-content; */
-    width: 320px;
-    /* height: 5177px; */
-    height: max-content;
+    max-width: 320px;
+    min-height: 5177px;
+    /* height: max-content; */
     box-sizing: content-box;
   }
 }
