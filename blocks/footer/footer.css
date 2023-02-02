@@ -13,7 +13,7 @@
   /* стили для планшета в альбомной ориентации */
   .footer {
     min-height: 18px;
-    /* width: 928px; */
+    max-width: 928px;
 
   }
 }
@@ -23,18 +23,18 @@
   /* стили для планшета */
   .footer {
     min-height: 18px;
-    /* width: 720px; */
+    max-width: 720px;
     padding: 88px 0 24px 0;
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 590px) {
   .footer {
     padding: 64px 0 24px 0;
     margin: 0 0 0 0;
     min-height: 310px;
     width: min-content;
-    /* align-content: start; */
+    /* max-width: 186px; */
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fit, min-content);
   }
@@ -45,8 +45,9 @@
     padding: 64px 0 24px 0;
     margin: 0 0 0 0;
     min-height: 310px;
+    /* max-width: 186px; */
     width: min-content;
-    /* align-content: start; */
+
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fit, min-content);
   }

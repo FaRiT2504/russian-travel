@@ -18,7 +18,9 @@
   .photo-grid {
     min-height: 942px;
     max-width: 928px;
-
+    gap: 14px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
 
   }
 }
@@ -41,7 +43,7 @@
     justify-items: stretch;
     grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
-    /* gap: 0px; */
+    gap: 12px;
 
     /* height: 216px;
     width: 288px; */

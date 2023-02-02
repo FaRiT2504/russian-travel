@@ -17,13 +17,29 @@
 @media screen and (max-width: 1024px) {
 
   /* стили для планшета в альбомной ориентации */
-  .content {}
+  .content {
+    max-width: 1024px;
+  }
 }
 
 @media screen and (max-width: 768px) {
 
   /* стили для планшета */
-  .content {}
+  .content {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+
+  /* стили для малого смартфона */
+  .content {
+    /* max-width: 320px;
+    max-height: max-content; */
+    /* padding: 16px 16px 16px 0; */
+    /* max-height: max-content; */
+    max-width: 590px
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -34,6 +50,6 @@
     max-height: max-content; */
     /* padding: 16px 16px 16px 0; */
     max-height: max-content;
-
+    max-width: 320px;
   }
 }

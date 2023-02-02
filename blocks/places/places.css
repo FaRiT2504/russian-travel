@@ -24,11 +24,11 @@
   .places {
     min-height: 2808px;
     max-width: 720px;
-    padding: 88px 0 90px 0;
+    padding: 88px 0 94px 0;
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 590px) {
   .places {
     padding: 64px 0 66px 0;
     /* height: min-content; */

@@ -1,0 +1,10 @@
+.cover__content {
+  position: relative;
+  background-color: bisque;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}

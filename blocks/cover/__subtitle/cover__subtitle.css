@@ -45,7 +45,7 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 590px) {
   .cover__subtitle {
     height: 48px;
     width: 288px;

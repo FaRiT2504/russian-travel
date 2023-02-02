@@ -1,8 +1,8 @@
 .place__title {
-  margin: 0 0 48px 0;
+  margin: 0 0 0 0;
   padding: 0 0 0 0;
   max-width: 460px;
-
+  /* box-sizing: border-box; */
   /* height: min-content; */
   min-height: 76px;
   font-size: 72px;
@@ -24,6 +24,7 @@
   .place__title {
     min-height: 76px;
     max-width: 440px;
+    margin: 0 0 16px 0;
   }
 }
 
@@ -32,7 +33,7 @@
   /* стили для планшета */
   .place__title {
     min-height: 46px;
-
+    margin: 0 0 20px 0;
     max-width: 340px;
     font-family: Inter;
     font-size: 42px;
@@ -40,12 +41,29 @@
     line-height: 46px;
     letter-spacing: 0em;
     text-align: left;
+    padding: 0 0 0 0;
 
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 768px) {
+  .place:nth-of-type(1) .place__title {
+    width: min-content;
+  }
+}
+
+@media screen and (max-width: 590px) {
   .place__title {
+    /* min-height: 35px;
+    max-width: 288px;
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0 0 0 0; */
     min-height: 35px;
     max-width: 288px;
 
@@ -55,7 +73,16 @@
     line-height: 35px;
     letter-spacing: 0em;
     text-align: left;
-    margin: 0 0 0 0;
+
+    margin: 0 0 0 17px;
+    padding: 0 0 0 0;
+    justify-self: start;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .places .place__title:nth-last-of-type(1) {
+    width: max-content;
   }
 }
 
@@ -70,6 +97,15 @@
     line-height: 35px;
     letter-spacing: 0em;
     text-align: left;
-    margin: 0 0 0 0;
+
+    margin: 0 0 0 17px;
+    padding: 0 0 0 0;
+    justify-self: start;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places .place__title:nth-last-of-type(1) {
+    width: max-content;
   }
 }
