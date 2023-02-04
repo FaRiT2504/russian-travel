@@ -16,7 +16,6 @@
 
   /* стили для планшета в альбомной ориентации */
   .intro__text {
-    /* min-height: 208px; */
     max-width: 690px;
   }
 }
@@ -25,7 +24,6 @@
 
   /* стили для планшета */
   .intro__text {
-    /* min-height: 208px; */
     max-width: 720px;
   }
 }
@@ -34,14 +32,6 @@
   .intro__text {
     min-height: 520px;
     max-width: 288px;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
     margin: 0 0 34px 0;
-
   }
-
 }

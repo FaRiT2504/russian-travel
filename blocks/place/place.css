@@ -1,39 +1,17 @@
 .place {
-  /* margin: 80px 0 0 0; */
   padding: 80px 0 0 0;
   max-width: 984px;
   min-height: 584px;
-  /* max-height: 660px; */
   display: grid;
   gap: 40px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(auto-fit, 1fr);
-  /* flex-direction: column; */
-  /* flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between; */
-  /* justify-content: space-between; */
-  /* margin-bottom: 80px; */
   box-sizing: border-box;
 
   grid-template-areas:
-    /* ". ." */
     "place__title  ."
     "place__title place__website"
     "place__image place__paragraph"
-    /* "place__image place__paragraph"
-    "place__image place__paragraph"
-    "place__image place__paragraph"
-    "place__image place__paragraph"
-    "place__image place__paragraph"
-    "place__image place__paragraph"
-    "place__image place__paragraph"
-    "place__image place__paragraph"
-    "place__image place__paragraph"
-    "place__image place__paragraph"
-    "place__image place__paragraph"
-    "place__image place__paragraph"; */
-    /* place__paragraph place__image*/
 }
 
 .place:nth-of-type(1) {
@@ -41,26 +19,13 @@
   padding: 0 0 0 0;
 }
 
-/* .place:nth-of-type(4) {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-} */
-
 @media screen and (max-width: 1024px) {
 
   /* стили для планшета в альбомной ориентации */
   .place {
-
     max-width: 928px;
     gap: 32px;
 
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .place:nth-of-type(1) {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
   }
 }
 
@@ -73,21 +38,8 @@
     max-width: 720px;
     gap: 28px;
     padding: 73px 0 0 0;
-    /* grid-template-columns: min-content 1fr;
-    grid-template-rows: repeat(min-content, 1fr); */
-    /* grid-template-areas:
-
-      "place__title place__website"
-      "place__image place__paragraph" */
   }
 
-}
-
-@media screen and (max-width: 768px) {
-  .place:nth-of-type(1) {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -134,26 +86,10 @@
 
 @media screen and (max-width: 590px) {
   .place {
-    /* min-height: 964px;
-   
-    max-width: 320px;
-    padding: 0 0 0 0;
-    margin: 50px 0 0 0;
-    box-sizing: content-box;
-    justify-items: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: 35px 46px min-content max-content;
-    grid-template-areas:
-      "place__title"
-      "place__website"
-      "place__image"
-      "place__paragraph"; */
     gap: 32px;
-
     min-height: 964px;
     max-width: 320px;
     padding: 0 0 0 0;
-
     box-sizing: content-box;
     justify-items: start;
     grid-template-columns: 1fr;
@@ -223,173 +159,36 @@
   }
 }
 
+/* @media screen and (max-width: 590px) {
+  .place:nth-of-type(2) {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .place:nth-of-type(3) {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .place:nth-of-type(4) {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .place:nth-of-type(5) {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place {
-    gap: 32px;
-
-    min-height: 964px;
-    max-width: 320px;
-    padding: 0 0 0 0;
-
-    box-sizing: content-box;
     justify-items: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: 35px 46px min-content 1fr;
-    grid-template-areas:
-      "place__title"
-      "place__website"
-      "place__image"
-      "place__paragraph";
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place:nth-of-type(1) {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place:nth-of-type(2) {
-    padding: 50px 0 0 0;
-    grid-template-rows: 35px 46px min-content max-content;
-    grid-template-areas:
-      "place__title"
-      "place__website"
-      "place__image"
-      "place__paragraph";
-
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place:nth-of-type(3) {
-    padding: 50px 0 0 0;
-    grid-template-rows: 35px 46px min-content max-content;
-    grid-template-areas:
-      "place__title"
-      "place__website"
-      "place__image"
-      "place__paragraph";
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place:nth-of-type(4) {
-    padding: 50px 0 0 0;
-    grid-template-rows: 35px 46px min-content max-content;
-    grid-template-areas:
-      "place__title"
-      "place__website"
-      "place__image"
-      "place__paragraph";
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place:nth-of-type(5) {
-    padding: 50px 0 0 0;
-    grid-template-rows: 35px 46px min-content max-content;
-    grid-template-areas:
-      "place__title"
-      "place__website"
-      "place__image"
-      "place__paragraph";
-
-  }
-}
-
-
-
-
-
-
-
-
-/* @media screen and (max-width: 320px) {
-  .place:nth-of-type(1) {
-   
-    margin: 0 0 0 0;
-    min-height: 1042px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place:nth-of-type(4) {
-
-    min-height: 964px;
-    padding: 0 0 0 0;
   }
 } */
-
-/* @media screen and (max-width: 590px) {
-  .place:nth-of-type(1) {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-  }
-}
-
-@media screen and (max-width: 590px) {
-  .place:nth-of-type(2) {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-  }
-}
-
-@media screen and (max-width: 590px) {
-  .place:nth-of-type(3) {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-  }
-}
-
-@media screen and (max-width: 590px) {
-  .place:nth-of-type(4) {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-  }
-}
-
-@media screen and (max-width: 590px) {
-  .place:nth-of-type(5) {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-  }
-} */
-
-/* @media screen and (max-width: 590px) {
-  .place:nth-of-type(1) {
-   
-    margin: 0 0 0 0;
-    min-height: 1042px;
-  }
-}
-
-@media screen and (max-width: 590px) {
-  .place:nth-of-type(4) {
-
- 
-    min-height: 964px;
-    padding: 0 0 0 0;
-  }
-} */
-
-/* @media screen and (max-width: 590px) {
-  .place:nth-of-type(1) {
-
-    margin: 0 0 0 0;
-    min-height: 1042px;
-  }
-}
-
-@media screen and (max-width: 590px) {
-  .place:nth-of-type(4) {
-
-   
-    min-height: 964px;
-    padding: 0 0 0 0;
-  }
-} */
-
-x

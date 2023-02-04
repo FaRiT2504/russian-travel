@@ -10,8 +10,6 @@
   .photo-grid__item {
     min-height: 225px;
     max-width: 300px;
-
-
   }
 }
 
@@ -21,16 +19,13 @@
   .photo-grid__item {
     min-height: 264px;
     max-width: 352px;
-
-
   }
 }
 
 @media screen and (max-width: 320px) {
   .photo-grid__item {
-    /* max-width: 100%; */
+
     min-height: 216px;
     max-width: 288px;
-
   }
 }

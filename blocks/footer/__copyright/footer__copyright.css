@@ -7,64 +7,27 @@
   line-height: 16px;
   justify-self: end;
   color: #FFFFFF;
+  letter-spacing: 0em;
 }
 
-@media screen and (max-width: 1024px) {
 
-  /* стили для планшета в альбомной ориентации */
-  .footer__copyright {}
-}
-
-@media screen and (max-width: 768px) {
-
-  /* стили для планшета */
-  .footer__copyright {}
-}
 
 @media screen and (max-width: 590px) {
   .footer__copyright {
-    /* min-height: 14px;
-    max-width: 186px;
-    padding: 0 0 0 0;
-    margin: 0 0 0 16px;
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0em;
-    text-align: left;
-    align-self: end; */
     min-height: 14px;
-
     width: max-content;
-    padding: 0 0 0 0;
     margin: 0 0 0 16px;
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
     line-height: 14px;
-    letter-spacing: 0em;
     text-align: left;
     align-self: end;
-
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
-    min-height: 14px;
-
-    width: max-content;
     padding: 0 0 0 0;
-    margin: 0 0 0 16px;
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0em;
-    text-align: left;
-    align-self: end;
-
-
   }
 }

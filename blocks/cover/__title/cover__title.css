@@ -3,38 +3,20 @@
   margin: 245px 0 32px 0;
   min-height: 152px;
   max-width: 560px;
-  font-family: Inter;
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
   text-align: center;
   text-decoration: none;
+  letter-spacing: 0em;
   color: #FFFFFF;
   z-index: 1;
 }
-
-.cover__title:hover {
-  /* opacity: 0.7; */
-  /* position: absolute; */
-
-}
-
-.cover__title:before {}
-
-.cover__title:hover:before {}
 
 @media screen and (max-width: 1024px) {
 
   /* стили для планшета в альбомной ориентации */
   .cover__title {
-    min-height: 152px;
-    max-width: 560px;
-    font-family: Inter;
-    font-size: 72px;
-    font-weight: 900;
-    line-height: 76px;
-    letter-spacing: 0em;
-    text-align: center;
     margin: 195px 0 32px 0;
     position: relative;
   }
@@ -44,49 +26,16 @@
 
   /* стили для планшета */
   .cover__title {
-    min-height: 152px;
-    max-width: 560px;
-    font-family: Inter;
-    font-size: 72px;
-    font-weight: 900;
-    line-height: 76px;
-    letter-spacing: 0em;
-    text-align: center;
     margin: 115px 0 32px 0;
-
   }
 }
 
 @media screen and (max-width: 590px) {
   .cover__title {
     margin: 33px 0 16px 0;
-    padding: 0 0 0 0;
     min-height: 70px;
     max-width: 288px;
-    font-family: Inter;
     font-size: 32px;
-    font-weight: 900;
     line-height: 35px;
-    letter-spacing: 0em;
-    text-align: center;
-
-
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover__title {
-    margin: 33px 0 16px 0;
-    padding: 0 0 0 0;
-    min-height: 70px;
-    max-width: 288px;
-    font-family: Inter;
-    font-size: 32px;
-    font-weight: 900;
-    line-height: 35px;
-    letter-spacing: 0em;
-    text-align: center;
-
-
   }
 }

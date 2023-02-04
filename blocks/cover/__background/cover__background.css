@@ -1,6 +1,5 @@
 .cover__background {
   width: 100%;
-  /* background-image: url('/image/1280/cover__background.jpg'); */
   min-height: 740px;
   max-width: 1184px;
   position: absolute;
@@ -13,8 +12,6 @@
   .cover__background {
     min-height: 640px;
     max-width: 1024px;
-
-
   }
 }
 
@@ -29,13 +26,6 @@
 }
 
 @media screen and (max-width: 360px) {
-  .cover__background {
-    min-height: 200px;
-    max-width: 320px;
-  }
-}
-
-@media screen and (max-width: 320px) {
   .cover__background {
     min-height: 200px;
     max-width: 320px;

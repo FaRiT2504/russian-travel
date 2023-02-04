@@ -7,33 +7,8 @@
   height: 100%;
   width: 100%;
   position: relative;
-  /* background-image: url('/image/1280/cover__background.jpg'); */
-  /* background-size: cover; */
-  /* display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center; */
-
-  /* position: relative; */
-  /* text-decoration: none; */
-}
-
-/* .cover::before {
-  height: 740px;
-  width: 100%;
-  height: 100%;
-  position: absolute;
- 
-  background-color: rgba(51, 29, 40, 0.3);
 
 }
-
-.cover:hover {
-
-  opacity: 0.7;
-
-
-} */
 
 @media screen and (max-width: 1024px) {
 
@@ -59,13 +34,5 @@
   .cover {
     min-height: 200px;
     max-width: 320px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover {
-    min-height: 200px;
-    max-width: 320px;
-
   }
 }

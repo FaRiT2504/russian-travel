@@ -12,32 +12,17 @@
 
 }
 
-@media screen and (max-width: 1024px) {
-
-  /* стили для планшета в альбомной ориентации */
-  .intro__list {}
-}
-
 @media screen and (max-width: 768px) {
 
   /* стили для планшета */
   .intro__list {
-    min-height: 90px;
     max-width: 720px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro__list {
-    max-height: 90px;
     max-width: 288px;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: left;
     margin: 0 0 0 0;
-    padding: 0 0 0 0;
   }
 }

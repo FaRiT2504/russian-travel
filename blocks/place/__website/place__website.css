@@ -2,22 +2,14 @@
   margin: 0 0 8px 0;
   padding: 0 0 0 0;
   max-width: 456px;
-
-  /* height: min-content; */
   min-height: 46px;
   grid-area: place__website;
-  /* grid-column: 2/3;
-  grid-row: -7/-10;
-  align-self: end; */
-
 }
 
 @media screen and (max-width: 1024px) {
 
   /* стили для планшета в альбомной ориентации */
   .place__website {
-    max-width: 456px;
-    min-height: 46px;
     margin: 0 0 16px 0;
   }
 }
@@ -26,12 +18,8 @@
 
   /* стили для планшета */
   .place__website {
-    /* height: 46px; */
-    /* width: min-content; */
-    min-height: 46px;
     max-width: 352px;
     margin: 0 0 20px 0;
-
   }
 }
 
@@ -39,18 +27,6 @@
   .place__website {
     min-height: 46px;
     max-width: 288px;
-
     margin: 0 0 0 0;
-    padding: 0 0 0 0;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__website {
-    min-height: 46px;
-    max-width: 288px;
-
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
   }
 }

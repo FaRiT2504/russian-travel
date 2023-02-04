@@ -10,50 +10,9 @@
   width: min-content;
 }
 
-@media screen and (max-width: 1024px) {
-
-  /* стили для планшета в альбомной ориентации */
-  .place__url-heading {}
-}
-
-@media screen and (max-width: 768px) {
-
-  /* стили для планшета */
-  .place__url-heading {
-    min-height: 12px;
-    width: min-content;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 12px;
-    letter-spacing: 2px;
-    text-align: left;
-
-  }
-}
 
 @media screen and (max-width: 560px) {
   .place__url-heading {
-    min-height: 12px;
     width: 288px;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 12px;
-    letter-spacing: 2px;
-    text-align: left;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__url-heading {
-    min-height: 12px;
-    width: 288px;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 12px;
-    letter-spacing: 2px;
-    text-align: left;
   }
 }

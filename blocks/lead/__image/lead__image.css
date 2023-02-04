@@ -5,8 +5,9 @@
   max-width: 984px;
   height: 100%;
   width: 100%;
-
+  object-fit: contain;
 }
+
 
 @media screen and (max-width: 1024px) {
 
@@ -23,8 +24,6 @@
   .lead__image {
     min-height: 480px;
     max-width: 768px;
-
-
   }
 }
 

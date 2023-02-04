@@ -2,7 +2,6 @@
   padding: 92px 0 92px 0;
   margin: 0 auto 0 auto;
   max-width: 984px;
-  /* height: min-content; */
   min-height: 3392px;
   box-sizing: border-box;
 }
@@ -13,8 +12,6 @@
   .places {
     min-height: 3292px;
     max-width: 928px;
-
-
   }
 }
 
@@ -31,21 +28,8 @@
 @media screen and (max-width: 590px) {
   .places {
     padding: 64px 0 66px 0;
-    /* height: min-content; */
     max-width: 320px;
     min-height: 5177px;
-    /* height: max-content; */
-    box-sizing: content-box;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .places {
-    padding: 64px 0 66px 0;
-    /* height: min-content; */
-    max-width: 320px;
-    min-height: 5177px;
-    /* height: max-content; */
     box-sizing: content-box;
   }
 }

@@ -1,5 +1,5 @@
 .header__lang-link {
-  padding: 0 0 0 0px;
+  padding: 0 0 0 0;
   margin: 0 0 5px 18px;
   min-height: 28px;
   max-width: 30px;
@@ -16,14 +16,12 @@
 
 }
 
-.header__lang-link:active {
-  text-decoration: underline;
+.header__lang-link:hover {
+  opacity: .8;
 }
 
-@media screen and (max-width: 1024px) {
-
-  /* стили для планшета в альбомной ориентации */
-  .header__lang-link {}
+.header__lang-link:active {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
@@ -40,14 +38,8 @@
   .header__lang-link {
     min-height: 20px;
     max-width: 22px;
-    font-family: Inter;
     font-size: 18px;
-    font-weight: 400;
     line-height: 20px;
-    letter-spacing: 0em;
-    text-align: right;
-    align-self: end;
-    padding: 0 0 0 0;
     margin: 0 10px 8px 0;
   }
 }
@@ -57,9 +49,3 @@
     margin: 0 18px 0 0;
   }
 }
-
-/* @media screen and (max-width: 320px) {
-  .header:nth-last-child(2) .header__lang-link {
-    margin: 0 0 0 0;
-  }
-} */

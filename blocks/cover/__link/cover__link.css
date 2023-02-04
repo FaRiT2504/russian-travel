@@ -12,7 +12,7 @@
   justify-items: center;
   align-items: center;
   background-image: url('../../../image/cover__background.jpg');
-
+  background-size: cover;
 }
 
 @media screen and (max-width: 1024px) {
@@ -40,18 +40,8 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .cover__link {
-    min-height: 200px;
-    max-width: 320px;
-
-
-  }
-}
-
 .cover__link::before {
   content: '';
-
   min-height: 740px;
   max-width: 1184px;
   width: 100%;
@@ -70,8 +60,6 @@
   .cover__link::before {
     min-height: 640px;
     max-width: 1024px;
-
-
   }
 }
 
@@ -83,13 +71,6 @@
 }
 
 @media screen and (max-width: 590px) {
-  .cover__link::before {
-    min-height: 200px;
-    max-width: 320px;
-  }
-}
-
-@media screen and (max-width: 320px) {
   .cover__link::before {
     min-height: 200px;
     max-width: 320px;
@@ -124,15 +105,6 @@
 }
 
 @media screen and (max-width: 590px) {
-  .cover__link:hover::before {
-    /* min-height: 200px;
-    max-width: 320px; */
-    min-height: 200px;
-    max-width: 320px;
-  }
-}
-
-@media screen and (max-width: 320px) {
   .cover__link:hover::before {
     min-height: 200px;
     max-width: 320px;
