@@ -10,6 +10,10 @@
   letter-spacing: 0em;
 }
 
+.footer__link:hover {
+  opacity: .8;
+}
+
 @media screen and (max-width: 590px) {
   .footer__link {
     margin: 0 0 33px 16px;
