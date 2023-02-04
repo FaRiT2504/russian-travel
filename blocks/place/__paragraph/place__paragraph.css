@@ -62,24 +62,20 @@
 
 @media screen and (max-width: 590px) {
   .place__paragraph {
-    height: min-content;
+    /* height: min-content; */
     max-width: 288px;
-
-
-
     font-size: 16px;
-
     line-height: 26px;
     letter-spacing: 0em;
     text-align: left;
   }
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
   .place__paragraph {
     height: max-content;
   }
-}
+} */
 
 @media screen and (max-width: 320px) {
   .place:nth-of-type(1) .place__paragraph {

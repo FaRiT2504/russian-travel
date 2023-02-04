@@ -14,15 +14,14 @@
   letter-spacing: 0em;
   text-align: right;
 
+
 }
 
 .header__lang-link:hover {
   opacity: .8;
 }
 
-.header__lang-link:active {
-  text-decoration: underline;
-}
+
 
 @media screen and (max-width: 768px) {
 
