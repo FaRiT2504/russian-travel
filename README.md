@@ -13,4 +13,4 @@
 - Анимации и транформации CSS
 - Адаптивная верстка
 
-#Адрес:https://github.com/FaRiT2504/russian-travel
+#Адрес:https://farit2504.github.io/russian-travel/
