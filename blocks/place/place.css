@@ -15,7 +15,7 @@
 
 .place:nth-of-type(1) {
   grid-template-rows: min-content 26% min-content;
-  padding: 0 0 0 0;
+
 }
 
 .place:nth-of-type(2) {
@@ -51,7 +51,7 @@
 @media screen and (max-width: 1024px) {
   .place:nth-of-type(1) {
     grid-template-rows: min-content 31% min-content;
-    padding: 0 0 0 0;
+
   }
 }
 
@@ -95,7 +95,7 @@
 @media screen and (max-width: 768px) {
   .place:nth-of-type(1) {
     grid-template-rows: min-content 36% auto;
-    padding: 0 0 0 0;
+
     min-height: 581px;
 
   }
@@ -161,7 +161,7 @@
 @media screen and (max-width: 590px) {
   .place:nth-of-type(1) {
     grid-template-rows: min-content min-content auto 22% min-content;
-    padding: 0 0 0 0;
+
     min-height: 1042px;
   }
 }
