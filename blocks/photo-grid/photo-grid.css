@@ -1,9 +1,8 @@
 .photo-grid {
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
+  padding: 0;
+  margin: 0;
   width: 100%;
   max-width: 1184px;
-  min-height: 671px;
   box-sizing: border-box;
   display: grid;
   justify-items: center;
@@ -16,7 +15,6 @@
 
   /* стили для планшета в альбомной ориентации */
   .photo-grid {
-    min-height: 942px;
     max-width: 928px;
     gap: 14px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -27,7 +25,6 @@
 
   /* стили для планшета */
   .photo-grid {
-    min-height: 1664px;
     max-width: 720px;
 
   }
@@ -35,7 +32,6 @@
 
 @media screen and (max-width: 320px) {
   .photo-grid {
-    min-height: 2724px;
     max-width: 288px;
     justify-items: stretch;
     grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));

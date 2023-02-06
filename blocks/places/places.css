@@ -2,7 +2,6 @@
   padding: 92px 0 92px 0;
   margin: 0 auto 0 auto;
   max-width: 984px;
-  min-height: 3392px;
   box-sizing: border-box;
 }
 
@@ -10,7 +9,7 @@
 
   /* стили для планшета в альбомной ориентации */
   .places {
-    min-height: 3292px;
+
     max-width: 928px;
   }
 }
@@ -19,7 +18,7 @@
 
   /* стили для планшета */
   .places {
-    min-height: 2808px;
+
     max-width: 720px;
     padding: 88px 0 94px 0;
   }
@@ -29,7 +28,7 @@
   .places {
     padding: 64px 0 66px 0;
     max-width: 320px;
-    min-height: 5177px;
+
     box-sizing: content-box;
   }
 }

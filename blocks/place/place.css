@@ -1,31 +1,83 @@
 .place {
   padding: 80px 0 0 0;
+  margin: 0 0 0 0;
   max-width: 984px;
   min-height: 584px;
   display: grid;
-  gap: 40px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(auto-fit, 1fr);
   box-sizing: border-box;
-
+  grid-template-columns: 1fr 1fr;
   grid-template-areas:
-    "place__title  ."
     "place__title place__website"
     "place__image place__paragraph"
+    "place__image place__paragraph-2";
+
 }
 
 .place:nth-of-type(1) {
-  margin: 0 0 0 0;
+  grid-template-rows: min-content 26% min-content;
   padding: 0 0 0 0;
 }
+
+.place:nth-of-type(2) {
+  grid-template-rows: min-content 24% min-content;
+
+}
+
+.place:nth-of-type(3) {
+  grid-template-rows: min-content 34% min-content;
+
+}
+
+.place:nth-of-type(4) {
+  grid-template-rows: min-content 22% min-content;
+
+}
+
+.place:nth-of-type(5) {
+  grid-template-rows: min-content auto 0;
+
+}
+
+
 
 @media screen and (max-width: 1024px) {
 
   /* стили для планшета в альбомной ориентации */
   .place {
     max-width: 928px;
-    gap: 32px;
+  }
+}
 
+@media screen and (max-width: 1024px) {
+  .place:nth-of-type(1) {
+    grid-template-rows: min-content 31% min-content;
+    padding: 0 0 0 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place:nth-of-type(2) {
+    grid-template-rows: min-content 24% min-content;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place:nth-of-type(3) {
+    grid-template-rows: min-content 39% min-content;
+
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place:nth-of-type(4) {
+    grid-template-rows: min-content 22% min-content;
+
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place:nth-of-type(5) {
+    grid-template-rows: min-content auto 0;
   }
 }
 
@@ -33,123 +85,120 @@
 
   /* стили для планшета */
   .place {
-
-    min-height: min-content;
     max-width: 720px;
-    gap: 28px;
     padding: 73px 0 0 0;
+    box-sizing: content-box;
   }
 
 }
 
 @media screen and (max-width: 768px) {
+  .place:nth-of-type(1) {
+    grid-template-rows: min-content 36% auto;
+    padding: 0 0 0 0;
+    min-height: 581px;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
   .place:nth-of-type(2) {
-    grid-template-rows: minmax(46px, min-content) 1fr;
-    padding: 73px 0 0 0;
-    grid-template-areas:
-      "place__title place__website"
-      "place__image place__paragraph"
+    grid-template-rows: min-content 29% min-content;
+
+    min-height: 535px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place:nth-of-type(3) {
-    grid-template-rows: minmax(46px, min-content) min-content;
-    padding: 73px 0 0 0;
-    grid-template-areas:
-      "place__title place__website"
-      "place__image place__paragraph"
+    grid-template-rows: min-content 43% auto;
+    min-height: 483px;
+
   }
 }
 
 @media screen and (max-width: 768px) {
   .place:nth-of-type(4) {
+    grid-template-rows: min-content 30% min-content;
 
-    padding: 68px 0 0 0;
-    grid-template-rows: minmax(46px, min-content) min-content;
-
-    grid-template-areas:
-      "place__title place__website"
-      "place__image place__paragraph"
+    min-height: 434px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place:nth-of-type(5) {
-    grid-template-rows: minmax(46px, min-content) min-content;
-    padding: 68px 0 0 0;
+    grid-template-rows: min-content min-content;
     grid-template-areas:
       "place__title place__website"
       "place__image place__paragraph"
+      "place__image place__paragraph";
+
+    min-height: 484px;
   }
 }
 
+
+
 @media screen and (max-width: 590px) {
   .place {
-    gap: 32px;
-    min-height: 964px;
+
+
     max-width: 320px;
-    padding: 0 0 0 0;
-    box-sizing: content-box;
-    justify-items: start;
+    padding: 50px 0 0 0;
+
+    justify-items: center;
     grid-template-columns: 1fr;
-    grid-template-rows: 35px 46px min-content 1fr;
+
     grid-template-areas:
       "place__title"
       "place__website"
       "place__image"
-      "place__paragraph";
+      "place__paragraph"
+      "place__paragraph-2";
   }
 }
 
 @media screen and (max-width: 590px) {
   .place:nth-of-type(1) {
-    margin: 0 0 0 0;
+    grid-template-rows: min-content min-content auto 22% min-content;
     padding: 0 0 0 0;
+    min-height: 1042px;
   }
 }
 
 @media screen and (max-width: 590px) {
   .place:nth-of-type(2) {
-    padding: 50px 0 0 0;
-    grid-template-rows: 35px 46px min-content max-content;
-    grid-template-areas:
-      "place__title"
-      "place__website"
-      "place__image"
-      "place__paragraph";
 
+    grid-template-rows: min-content min-content auto 15% min-content;
+
+    min-height: 1016px;
   }
 }
 
 @media screen and (max-width: 590px) {
   .place:nth-of-type(3) {
-    padding: 50px 0 0 0;
-    grid-template-rows: 35px 46px min-content max-content;
-    grid-template-areas:
-      "place__title"
-      "place__website"
-      "place__image"
-      "place__paragraph";
+
+    grid-template-rows: min-content min-content auto 26% min-content;
+
+    min-height: 990px;
   }
 }
 
 @media screen and (max-width: 590px) {
   .place:nth-of-type(4) {
-    padding: 50px 0 0 0;
-    grid-template-rows: 35px 46px min-content max-content;
-    grid-template-areas:
-      "place__title"
-      "place__website"
-      "place__image"
-      "place__paragraph";
+
+    /* grid-template-rows: 35px 46px min-content max-content; */
+    grid-template-rows: min-content min-content auto 19% min-content;
+
+    min-height: 964px;
   }
 }
 
 @media screen and (max-width: 590px) {
   .place:nth-of-type(5) {
-    padding: 50px 0 0 0;
-    grid-template-rows: 35px 46px min-content max-content;
+    min-height: 965px;
+    grid-template-rows: min-content min-content auto min-content;
+
     grid-template-areas:
       "place__title"
       "place__website"
@@ -158,37 +207,3 @@
 
   }
 }
-
-/* @media screen and (max-width: 590px) {
-  .place:nth-of-type(2) {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-  }
-}
-
-@media screen and (max-width: 590px) {
-  .place:nth-of-type(3) {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-  }
-}
-
-@media screen and (max-width: 590px) {
-  .place:nth-of-type(4) {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-  }
-}
-
-@media screen and (max-width: 590px) {
-  .place:nth-of-type(5) {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place {
-    justify-items: center;
-  }
-} */
