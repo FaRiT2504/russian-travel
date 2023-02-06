@@ -18,9 +18,11 @@
 
   /* стили для планшета */
   .places {
-
+    min-height: min-content;
     max-width: 720px;
-    padding: 16px 0 90px 0;
+    padding: 18px 0px 86px;
+
+
   }
 }
 

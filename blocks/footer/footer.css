@@ -3,8 +3,6 @@
   margin: auto;
   max-width: 1184px;
   min-height: 18px;
-  /* display: grid;
-  grid-template-columns: repeat(5, min-content) 1fr; */
   display: flex;
   justify-content: space-between;
 }
@@ -22,17 +20,16 @@
 
   .footer {
     max-width: 720px;
-    padding: 64px 0 24px 0;
+    padding: 88px 0 24px 0;
   }
 }
 
 @media screen and (max-width: 590px) {
   .footer {
-    padding: 64px 0 9px 0;
+    padding: 66px 0 24px 0;
     margin: 0 0 0 0;
     min-height: 310px;
     width: min-content;
-    /* grid-template-columns: 1fr;
-    grid-template-rows: repeat(auto-fit, min-content); */
+    flex-direction: column;
   }
 }

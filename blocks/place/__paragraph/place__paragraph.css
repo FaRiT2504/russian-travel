@@ -1,29 +1,22 @@
 .place__paragraph {
-  padding: 0 12px 0 0;
+  padding: 0;
   margin: 0;
   max-width: 484px;
-  min-height: 116px;
+
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
   letter-spacing: 0em;
   text-align: left;
+  align-self: start;
   grid-area: place__paragraph;
 
 }
 
 .place .place__paragraph:nth-of-type(2) {
   grid-area: place__paragraph-2;
-  /* padding: 0; */
-  padding: 0 12px 0 0;
-  margin: 0;
-  max-width: 484px;
-  min-height: 116px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 29px;
-  letter-spacing: 0em;
-  text-align: left;
+  margin: 25px 0 0 0;
+
 
 }
 
@@ -37,16 +30,25 @@
 
 @media screen and (max-width: 768px) {
 
-  /* стили для планшета */
+
   .place__paragraph {
     max-width: 352px;
     font-size: 16px;
-    line-height: 25px;
+    line-height: 26px;
 
   }
 }
 
 @media screen and (max-width: 768px) {
+
+
+  .place .place__paragraph:nth-of-type(2) {
+    grid-area: place__paragraph-2;
+    margin: 25px 0 0 0;
+  }
+}
+
+/* @media screen and (max-width: 768px) {
 
   .place .place__paragraph:nth-of-type(2) {
     grid-area: place__paragraph-2;
@@ -54,7 +56,8 @@
     font-size: 16px;
     max-width: 352px;
   }
-}
+} */
+
 
 
 
@@ -63,7 +66,7 @@
 
     max-width: 288px;
     line-height: 26px;
-    margin: 0 16px 0 16px;
+    margin: 32px 16px 0 16px;
 
 
   }
@@ -71,17 +74,26 @@
 
 @media screen and (max-width: 590px) {
 
+
+  .place .place__paragraph:nth-of-type(2) {
+    grid-area: place__paragraph-2;
+    margin: 24px 0 0 0;
+  }
+}
+
+/* @media screen and (max-width: 590px) {
+
   .place .place__paragraph:nth-of-type(2) {
 
     max-width: 288px;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0em;
-    /* padding: 0 12px 0 0; */
+    
     text-align: left;
     box-sizing: border-box;
     line-height: 26px;
     margin: 0 16px 0 16px;
 
   }
-}
+} */
