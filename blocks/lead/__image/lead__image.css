@@ -6,6 +6,7 @@
   height: 100%;
   width: 100%;
   object-fit: contain;
+  min-height: min-content;
 }
 
 
@@ -13,8 +14,9 @@
 
   /* стили для планшета в альбомной ориентации */
   .lead__image {
-    min-height: 580px;
+    /* min-height: 580px; */
     max-width: 928px;
+
   }
 }
 
@@ -22,7 +24,7 @@
 
   /* стили для планшета */
   .lead__image {
-    min-height: 480px;
+    /* min-height: 480px; */
     max-width: 768px;
   }
 }
@@ -31,7 +33,7 @@
 
   /* стили для малого смартфона */
   .lead__image {
-    min-height: 200px;
+    /* min-height: 200px; */
     max-width: 320px;
   }
 }
