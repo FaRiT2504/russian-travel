@@ -16,13 +16,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
 
-  /* стили для планшета */
-  .place__link {
-    min-height: 22px;
-  }
-}
 
 @media screen and (max-width: 560px) {
   .place__link {

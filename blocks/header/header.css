@@ -16,15 +16,6 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-
-  /* стили для планшета */
-  .header {
-    min-height: 52px;
-
-  }
-}
-
 @media screen and (max-width: 320px) {
 
   /* стили для малого смартфона */

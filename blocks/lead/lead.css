@@ -5,14 +5,14 @@
   flex-direction: column;
   justify-content: center;
   max-width: 984px;
-  min-height: min-content;
+  /* min-height: min-content; */
 }
 
 @media screen and (max-width: 1024px) {
 
   /* стили для планшета в альбомной ориентации */
   .lead {
-    /* min-height: 962px; */
+
     max-width: 928px;
     padding: 48px 0 0 0;
   }
@@ -22,15 +22,7 @@
 
   /* стили для планшета */
   .lead {
-    /* min-height: 862px; */
+
     width: 100%;
-  }
-}
-
-@media screen and (max-width: 590px) {
-
-  /* стили для малого смартфона */
-  .lead {
-    /* min-height: 406px; */
   }
 }
